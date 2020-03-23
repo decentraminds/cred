@@ -1,6 +1,6 @@
-# Ocean Collective Cred Scoring
+# Cred Scoring
 
-Tooling to compute Cred scores for the Ocean Collective using the [Sourcecred](https://sourcecred.io/) social algorithm.
+Tooling to compute Cred scores to incentivize contributions within the Org DAO using the [Sourcecred](https://sourcecred.io/) social algorithm.
 
 ## Requirements
 
@@ -18,11 +18,10 @@ yarn install
 
 ## Configuration
 
-*See [Spec](projects/collective.json)*
+*See [Spec](project.json)*
 
 * Sources
-  - Ocean Protocol Official [Discourse](https://port.oceanprotocol.com) forum (AKA Port)
-  - [Ocean Collective Github Org](https://github.com/Ocean-Collective)
+  - [Decentraminds Github Org](https://github.com/decentraminds)
 * Weights [Spec](weights.json) (WIP **NOT Active** using defaults)
   - Edges
     - 
@@ -42,7 +41,7 @@ serve ./docs # Frontend will be available at http://localhost:5000
 
 ## Generate-Cred Github Action
 
-The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updatinh the Public [UI Graph](https://ocean-collective.github.io/cred/timeline/@ocean-collective/) every week (Sun at 23:59)
+The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updating the Public [UI Graph](https://decentraminds.github.io/cred/timeline/@decentraminds/) every day (at 00:00)
 
 ## License
 
