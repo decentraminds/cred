@@ -34,7 +34,7 @@ jobs:
         with:
           # weights: weights.json
           project: "@decentraminds"
-          # project-file: project.json
+          project-file: project.json
           # branch-against: master
           automated: true
           # test-run: true
