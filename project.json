@@ -8,6 +8,9 @@
       "identities":[
 
       ],
+      "initiatives": {
+         "remoteUrl": "https://github.com/decentraminds/cred/tree/master/initiatives"
+      },
       "repoIds":[
          {
             "name":"op-subgraph",
