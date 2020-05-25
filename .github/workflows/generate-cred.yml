@@ -29,7 +29,8 @@ jobs:
         uses: vsoch/cred-action@wip-discord-cache
 #         uses: vsoch/cred-action@master
         env:
-          token: ${{ secrets.GITHUB_TOKEN }}
+#           token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRIVATE_TOKEN }}
           # SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
           SOURCECRED_INITIATIVES_DIRECTORY: ./initiatives
         with:
