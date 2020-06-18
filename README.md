@@ -1,6 +1,6 @@
 # Cred Scoring
 
-Tooling to compute Cred scores to incentivize contributions within the Org DAO using the [Sourcecred](https://sourcecred.io/) social algorithm.
+using Sourcecred to compute Cred scores to incentivize project contributions within the Org
 
 ## Requirements
 
@@ -41,7 +41,7 @@ serve ./docs # Frontend will be available at http://localhost:5000
 
 ## Generate-Cred Github Action
 
-The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updating the Public [UI Graph](https://decentraminds.github.io/cred/timeline/@decentraminds/) every day (at 00:00)
+The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updating the Public [UI Graph](https://decentraminds.github.io/cred/timeline/@decentraminds/) every month (at 00:00)
 
 ## License
 
