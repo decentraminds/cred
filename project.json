@@ -6,6 +6,8 @@
    {
       "id":"@decentraminds",
       "identities":[
+         { "username": "santteegt", "aliases": ["github/santteegt"]},
+         { "username": "malgia", "aliases": ["github/malgia"]}
 
       ],
       "initiatives": {
@@ -42,6 +44,18 @@
          },
          {
             "name":"cred",
+            "owner":"decentraminds"
+         },
+         {
+            "name":"mktpl2",
+            "owner":"decentraminds"
+         },
+         {
+            "name":"op-web3-wallet2",
+            "owner":"decentraminds"
+         },
+         {
+            "name":"react-redux-tutorial",
             "owner":"decentraminds"
          }
       ]
