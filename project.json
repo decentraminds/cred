@@ -57,6 +57,10 @@
          {
             "name":"react-redux-tutorial",
             "owner":"decentraminds"
+         },
+         {
+            "name":"create-ocean-app",
+            "owner":"decentraminds"
          }
       ]
    }
