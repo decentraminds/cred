@@ -26,8 +26,8 @@ jobs:
             SC_CACHE-${{ hashFiles('**/project.json') }}-
             SC_CACHE-
       - name: Run SourceCred
-#         uses: vsoch/cred-action@wip-discord-cache
-        uses: vsoch/cred-action@master
+        uses: vsoch/cred-action@wip-discord-cache
+#         uses: vsoch/cred-action@master
         env:
 #           token: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.PRIVATE_TOKEN }}
